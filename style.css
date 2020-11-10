@@ -4,20 +4,23 @@ body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
-ul{
-  background-color: rgb(0,255,0);
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(0, 255, 0);
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-
-h1{
+h1 {
   font-style: italic;
   color: #000080;
+  display: flex;
+  justify-content: center;
 }
-h1:hover{
+h1:hover {
   font-style: italic;
-  color: rgba(250,0,0,255);
+  color: rgba(250, 0, 0, 255);
 }
-
