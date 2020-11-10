@@ -20,7 +20,10 @@ h1 {
   display: flex;
   justify-content: center;
 }
-h1:hover {
+.link:hover {
   font-style: italic;
   color: rgba(250, 0, 0, 255);
+}
+.link{
+text-decoration:none 
 }
